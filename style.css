@@ -1,0 +1,244 @@
+p {
+  padding-right: 4px;
+  padding-left: 4px;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14pt;
+}
+a:visited {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+h1 {
+  font-family: "Lucida Sans Unicode";
+  font-size: 18pt;
+  color: #474747;
+  font-weight: regular;
+}
+h2 {
+  font-family: "Lucida Sans Unicode";
+  font-size: 14pt;
+  color: #474747;
+  font-weight: regular;
+}
+h3 {
+  font-family: "Lucida Sans Unicode";
+  font-size: 12pt;
+  color: #474747;
+  font-weight: bold;
+}
+.itemimage {
+  border: solid 0px #aaa;
+  max-width: 100px;
+  width: expression(this.width > 100 ? 100 : true);
+  vertical-align: middle;
+}
+.iimage {
+  border: solid 0px #aaa;
+  max-width: 320px;
+  width: expression(this.width > 320 ? 320 : true);
+  vertical-align: middle;
+}
+ol {
+  list-style-type: decimal;
+}
+ul {
+  list-style-type: square;
+}
+.iconmenulistcontainer {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.iconmenucontainer {
+  border-bottom: solid 1px #c8c8c8;
+  background: white;
+  margin: 0;
+}
+.iconmenuitemlink {
+  display: block;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #000;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+.iconmenuimgcontainer {
+  float: left;
+  max-width: 30px;
+  padding: 10px 5px 10px 7px;
+}
+.iconmenuitemimage {
+  vertical-align: middle;
+  padding: 0;
+  height: 23px;
+  width: 23px;
+  border: 0;
+}
+.iconmenuimgarrowcontainer {
+  float: right;
+  padding: 14px 10px 13px;
+  vertical-align: middle;
+}
+.iconmenuimgarrow {
+  border: none;
+  max-width: 100%;
+  vertical-align: middle;
+  width: 10px;
+}
+.iconmenutitle {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #000;
+  float: left;
+  padding: 14px 5px 13px;
+  margin: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+  font-size: 14pt;
+}
+.table.menupagetypelistcontainer a {
+  margin: -23px 0;
+  padding: 23px 0;
+  display: block;
+  text-align: left;
+  font-size: 17px;
+  
+  font-weight: 100;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.menucontainer {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+.menucontainer * {
+  vertical-align: middle;
+}
+.menuitem {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: solid 2px rgba(172, 171, 171, 1);
+  max-height: 86px;
+}
+.menulink {
+  display: block;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+}
+.menuimgcontainer {
+  display: inline-block;
+}
+.menuimage {
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+  margin: 4px 8px 4px 0px;
+  display: block;
+  padding-left: 12px;
+}
+.menutextcontainer {
+  display: inline-block;
+  max-width: 75%;
+}
+.menutext1 {
+  margin: 0;
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: normal;
+  color: #000;
+  font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
+.menuimgarrow {
+  vertical-align: middle;
+  padding: 10px 10px 10px 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.stripesmenulistcontainer {
+  text-align: left;
+  width: 100%;
+}
+.StripesMenuList {
+  text-align: left;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+}
+.StripesMenuItem {
+  line-height: 35px;
+  background: rgba(51, 51, 51, 0.9);
+  margin-bottom: 10px;
+  border: solid #ffffff 2px;
+  -webkit-border-radius: 0 14 14 0;
+  -moz-border-radius: 0 14 14 0;
+  border-radius: 0px 14px 14px 0px;
+}
+.StripesMenuTitle {
+  margin: 0;
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: STHeitiTC-Light, Century Gothic;
+  text-decoration: none;
+  color: #fff;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.StripesMenuImage {
+  vertical-align: middle;
+  margin-left: 15px;
+  margin-top: 2px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+.button {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px; 
+  padding: 10px 25px; 
+  background-color: #171817; 
+  color: rgb(250, 249, 249); 
+  border: 13px; 
+  border-radius: 20px; 
+  cursor: pointer;
+  display: inline-block;
+  margin: 5px; 
+}
